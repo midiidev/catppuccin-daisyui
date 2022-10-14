@@ -1,0 +1,17 @@
+{
+  "name": "catppuccin-daisyui",
+  "version": "1.0.0",
+  "description": "DaisyUI config file with Catppuccin themes",
+  "main": "index.js",
+  "repository": "https://github.com/Fire-Ash/catppuccin-daisyui",
+  "author": "Fire-Ash",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./src/main.css -o ./dist/main.css",
+    "watch": "tailwindcss -i ./src/main.css -o ./dist/main.css --watch"
+  },
+  "devDependencies": {
+    "daisyui": "^2.31.0",
+    "tailwindcss": "^3.1.8"
+  }
+}
